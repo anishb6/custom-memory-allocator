@@ -73,8 +73,10 @@ Block 3 | addr: 0x... | size: 1048130 bytes | status: FREE
 
 === Freeing A, then D (watch coalescing merge free blocks) ===
 ---- Heap State ----
-Block 0 | addr: 0x... | size: 200 bytes | status: FREE   <- merged blocks
-Block 1 | addr: 0x... | size: 50 bytes  | status: USED
-Block 2 | addr: 0x... | size: 1048130 bytes | status: FREE
+Block 0 | addr: 0x... | size: 100 bytes | status: FREE
+Block 1 | addr: 0x... | size: 200 bytes | status: FREE
+Block 2 | addr: 0x... | size: 50 bytes  | status: USED
+Block 3 | addr: 0x... | size: 1048130 bytes | status: FREE
+---------------------
 ---------------------
 ```
