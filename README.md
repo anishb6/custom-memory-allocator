@@ -48,6 +48,18 @@ gcc -Wall -o test_run src/allocator.c test/test.c
 ./test_run
 ```
 
+## Testing
+
+The allocator was tested with:
+
+- Allocating multiple blocks
+- Freeing a block and reusing its space
+- Splitting a free block
+- Coalescing free blocks
+- Handling allocation requests larger than the available heap
+
+The test program prints the state of the simulated heap after each operation.
+
 ## Sample output
 
 ```
