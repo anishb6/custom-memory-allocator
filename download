@@ -1,0 +1,12 @@
+# build outputs
+build/
+*.o
+*.exe
+*.out
+test_run
+
+# debug / editor leftovers
+*.dSYM/
+*.gcda
+*.gcno
+core
